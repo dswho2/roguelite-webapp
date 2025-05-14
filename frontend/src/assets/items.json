@@ -1,0 +1,30 @@
+[
+  {
+    "id": "potion_small",
+    "name": "Small Potion",
+    "type": "consumable",
+    "description": "Restores 25 HP.",
+    "effect": "heal",
+    "potency": 25,
+    "icon": "🧪"
+  },
+  {
+    "id": "iron_helmet",
+    "name": "Iron Helmet",
+    "type": "gear",
+    "slot": "head",
+    "description": "Basic metal helmet.",
+    "stats": { "def": 3 },
+    "icon": "🪖"
+  },
+  {
+    "id": "fire_sword",
+    "name": "Fire Sword",
+    "type": "gear",
+    "slot": "weapon",
+    "description": "A flaming sword.",
+    "stats": { "atk": 7 },
+    "specialProperties": ["burn"],
+    "icon": "🔥"
+  }
+]
